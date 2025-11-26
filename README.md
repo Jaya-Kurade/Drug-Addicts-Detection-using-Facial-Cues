@@ -4,7 +4,9 @@ Addiction rates are increasing worldwide, bringing serious health and social con
 This project explores AI-driven early detection of drug addiction using facial image analysis. Traditional methods are slow and intrusive, prompting the use of deep learning for rapid, non-invasive screening. Using a balanced Kaggle dataset (560 images), we built two models: a custom CNN and a VGG16-based transfer learning classifier. Preprocessing included resizing and real-time augmentation. Trained in Keras and deployed via Gradio, the best model achieved **68%** **test accuracy** showing moderate potential. Future work will focus on improving data quality, model architecture, and regularization techniques. 
 
 **Environment Setup**
+
 Import Deep learning and utility libraries (TensorFlow/Keras, NumPy, Matplotlib, Seaborn, scikit-learn, Gradio).
+
 Mount Google Drive in Colab:
 from google.colab import drive
 drive.mount('/content/drive')
